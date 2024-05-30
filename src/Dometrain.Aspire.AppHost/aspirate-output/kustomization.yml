@@ -1,0 +1,10 @@
+resources:
+- main-db
+- redis
+- rabbitmq
+- dometrain-api
+- dashboard.yml
+
+generatorOptions:
+  disableNameSuffixHash: true
+

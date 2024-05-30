@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EA020C9E-BECD-40C1-98B3-48070D728500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dometrain.Monolith.Api", "src\Dometrain.Monolith.Api\Dometrain.Monolith.Api.csproj", "{BCD98E15-8F73-4F5A-8F9B-3A1BC752DB41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F4495E47-2156-48B8-83B0-859FBB2B5CE8}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		database\init.sql = database\init.sql
+		Insomnia_collection.json = Insomnia_collection.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dometrain.Aspire.AppHost", "src\Dometrain.Aspire.AppHost\Dometrain.Aspire.AppHost.csproj", "{77B3B2C6-A5DA-4869-A4B8-8B62C4F1616F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dometrain.Aspire.ServiceDefaults", "src\Dometrain.Aspire.ServiceDefaults\Dometrain.Aspire.ServiceDefaults.csproj", "{6B3FFFEC-B034-4408-AD34-741B02A9F163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCD98E15-8F73-4F5A-8F9B-3A1BC752DB41} = {EA020C9E-BECD-40C1-98B3-48070D728500}
+		{77B3B2C6-A5DA-4869-A4B8-8B62C4F1616F} = {EA020C9E-BECD-40C1-98B3-48070D728500}
+		{6B3FFFEC-B034-4408-AD34-741B02A9F163} = {EA020C9E-BECD-40C1-98B3-48070D728500}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCD98E15-8F73-4F5A-8F9B-3A1BC752DB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD98E15-8F73-4F5A-8F9B-3A1BC752DB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD98E15-8F73-4F5A-8F9B-3A1BC752DB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD98E15-8F73-4F5A-8F9B-3A1BC752DB41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B3B2C6-A5DA-4869-A4B8-8B62C4F1616F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B3B2C6-A5DA-4869-A4B8-8B62C4F1616F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B3B2C6-A5DA-4869-A4B8-8B62C4F1616F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B3B2C6-A5DA-4869-A4B8-8B62C4F1616F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B3FFFEC-B034-4408-AD34-741B02A9F163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3FFFEC-B034-4408-AD34-741B02A9F163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3FFFEC-B034-4408-AD34-741B02A9F163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3FFFEC-B034-4408-AD34-741B02A9F163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
